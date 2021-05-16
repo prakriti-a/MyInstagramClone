@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Instagram Clone</string>
+
+    <string name="btnGoToSignUp">Don\'t have an account?</string>
+    <string name="btnGoToLogin">Already have an account?</string>
+    <string name="btnSignUp">New User? Sign Up!</string>
+    <string name="btnLogin">Log In To Your Account</string>
+
+    <string name="hint_email">Enter Email ID*</string>
+    <string name="hint_username">Enter Username*</string>
+    <string name="hint_password">Enter Password*</string>
+    <string name="btnLogOut">LOG OUT</string>
+
+
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_phone">Enter Phone Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="getData">GET DATA FROM SERVER</string>
+    <string name="table_title">Personal Info:</string>
+    <string name="name_title">NAME</string>
+    <string name="phone_title">PHONE NO.</string>
+    <string name="hint_loginID">Enter Username or Email*</string>
+    <string name="txtSplash">Instagram\nPowered by facebook</string>
+
+    <string name="hint_profile_name">Display Name</string>
+    <string name="hint_profile_bio">Tell us something about yourself</string>
+    <string name="btnProfileUpdate">UPDATE</string>
+    <string name="btnProfileSave">SAVE</string>
+    <string name="txt_profile_name">Name:  </string>
+    <string name="txt_profile_bio">Bio:  </string>
+    <string name="btnProfileLogout">LOG OUT</string>
+    <string name="btnProfileCancel">CANCEL</string>
+    <string name="hint_caption">Write a Caption...</string>
+    <string name="btn_postShare">SHARE</string>
+    <string name="menu_postImage">POST IMAGE</string>
+    <string name="menu_logout">LOG OUT</string>
+
+
+</resources>

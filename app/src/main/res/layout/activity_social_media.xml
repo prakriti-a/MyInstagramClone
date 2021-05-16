@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SocialMediaActivity">
+
+    <!-- AppBarLayout needs to have Toolbar and Tab layout -->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/myAppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/myToolbar"
+            layout="@layout/my_toolbar"/>
+
+        <!-- TabLayout comes from added dependency -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/myTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryColor"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+            <!-- Fragments are added using TabAdapter -->
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- View Pager is used to scroll between tabs -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myAppBarLayout"/>
+
+</RelativeLayout>
